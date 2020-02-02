@@ -350,8 +350,8 @@
                       </g>
                       <g clip-path="url(#SVGID_2_)" fill="none" stroke="#FFF" stroke-miterlimit="10">
                         <circle cx="300" cy="300" r="150" stroke-width="20" />
-                        <image width="800" height="600" xlink:href="static/Mark_Zuckerberg.jpeg" clip-path=url(#SVGID_1_)
-                          style="z-index: -1000;" />
+                        <image width="800" height="600" xlink:href="static/Mark_Zuckerberg.jpeg"
+                          clip-path=url(#SVGID_1_) style="z-index: -1000;" />
                         <path d="M600 300" stroke-width="8" />
                         <path d="M555.58 300" stroke-width="8" />
                         <path d="M44.42 300" stroke-width="8" />
@@ -665,10 +665,11 @@
     margin: 0;
     padding: 0;
     height: 100%;
-		overflow: hidden;
+    overflow: hidden;
     overflow-y: scroll;
   }
-  .vector{
+
+  .vector {
     background-image: url("static/bg1.png");
     background-position: center center;
     background-repeat: no-repeat;
@@ -804,7 +805,7 @@
     border-color: transparent !important;
   }
 
-  svg{
+  svg {
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(216, 211, 211, 0.397), 0 6px 6px rgba(209, 204, 204, 0.363);
   }
@@ -830,15 +831,15 @@
     background-color: transparent;
   }
 
-  .el .card-body b{
-    font-family: "Fauna One",sans-serif;
+  .el .card-body b {
+    font-family: "Fauna One", sans-serif;
     font-size: 0.7rem;
     color: lightskyblue;
     text-transform: uppercase;
   }
 
-  #heading{
-    font-family: "Fauna One",sans-serif;
+  #heading {
+    font-family: "Fauna One", sans-serif;
     color: lightskyblue;
     text-transform: uppercase;
     position: absolute;
@@ -887,7 +888,13 @@
     }
   }
 
-  
+  @media only screen and (max-width: 567px) { /*Added 2nd Feb*/
+    .el .temp {
+      /* min-width: 15rem!important; */
+      max-width: 12rem !important;
+    }
+  }
+
   @media only screen and (max-width: 567px) {
 
     /* .el .container-fluid {
