@@ -338,7 +338,22 @@
     transform: translateY(20vh);
   }
 }
-
+@media only screen and (max-width: 670px) {
+  .modal .row{
+    display: contents;
+  }
+  .modal .row .col-4 {
+    max-width: 80%!important;
+  }
+  #attr .heading {
+    position: relative;
+    top: 15%;
+  }
+  .attr-img {
+    width: 100px;
+    height: 100px;
+  }
+}
 @media only screen and (max-width: 580px) {
   .justify-content-center{
     transform: translateY(-120px);
@@ -349,6 +364,15 @@
   display: flex;
   flex-direction: row;
 }
+}
+@media only screen and (max-width: 450px) {
+  .attr-img {
+    width: 80px;
+    height: 80px;
+  }
+  .modal .row .col-4 {
+    max-width: 90%!important;
+  }
 }
 .heading h1{
   font-size: 4rem;
