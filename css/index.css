@@ -352,7 +352,7 @@
   max-width: 800px !important;
 }
 .modal-open {
-  overflow: visible !important;
+  overflow: scroll !important;
 }
 
 .modal-backdrop {
@@ -390,8 +390,10 @@ text-decoration: none;
 }
 @media only screen and (max-width: 670px) {
 .modal-open {
-display: contents;
-  overflow: visible !important;
+  overflow: scroll !important;
+}
+.modal .row{
+  display: grid;
 }
   .modal .row .col-4 {
     max-width: 80%!important;
@@ -422,7 +424,7 @@ display: contents;
     height: 80px;
   }
   .modal-open {
-    overflow: visible !important;
+    overflow: scroll !important;
   }
   .modal .row .col-4 {
     max-width: 90%!important;
