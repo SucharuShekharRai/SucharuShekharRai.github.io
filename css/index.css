@@ -389,9 +389,6 @@ text-decoration: none;
 /* transition: 0.2s; */
 }
 @media only screen and (max-width: 670px) {
-  .modal .row{
-    display: contents;
-  }
 .modal-open {
   overflow: visible !important;
 }
@@ -430,24 +427,6 @@ text-decoration: none;
     max-width: 90%!important;
   }
 }
-/* .modal .btn-primary:focus {
-  background-color: transparent !important;
-  border-color: transparent !important;
-  box-shadow: none !important;
-}
-
-.modal .btn-primary {
-  background-color: transparent !important;
-  border-color: transparent !important;
-}
-
-.modal .btn-primary:hover {
-  background-color: transparent !important;
-  border-color: transparent !important;
-}
-.modal .btn:focus {
-  outline: none;
-} */
 .modal .btn:hover{
 /* color: #255784; */
 background: #2196f3;
