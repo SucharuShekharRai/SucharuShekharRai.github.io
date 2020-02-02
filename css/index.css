@@ -390,6 +390,7 @@ text-decoration: none;
 }
 @media only screen and (max-width: 670px) {
 .modal-open {
+display: contents;
   overflow: visible !important;
 }
   .modal .row .col-4 {
