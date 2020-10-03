@@ -1,0 +1,1 @@
+### This website was part of the Aarohan Fest 2020 and was made as a precursor to that just for testing purpose. The Backend was integrated in a different repo of my colleague. This is no way the actual website of Aarohan 2020, held by Team Aavishkar.

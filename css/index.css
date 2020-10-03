@@ -495,7 +495,8 @@ color: white;
 
 .workshop-img{
   height: auto;
-  width: 30vw;
+  width: 25vw;
+  padding-left: 10vw;
 }
 .workshop-title{
   color: white;
@@ -512,7 +513,7 @@ color: white;
 }
 .workshop-name3{
   display: inline;
-  padding-left: 20%;
+  padding-left:17%;
   /* padding-right: 8%; */
 }
 .workshop-name{
